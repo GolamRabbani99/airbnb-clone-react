@@ -1,0 +1,44 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    align-items: center;
+}
+.header__icon{
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.header__center{
+    display: flex;
+    align-items: center;
+    flex:1;
+    max-width: fit-content;
+    padding:10px;
+    height: 30px;
+    border:1px solid lightslategray;
+    border-radius: 999px;
+}
+
+.header__center>input{
+    border:none;
+    width:250px;
+    padding:10px;
+}
+
+
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}

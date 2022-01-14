@@ -1,0 +1,46 @@
+.banner{
+    height: 50vh;
+    background: url("https://avltoday.6amcity.com/wp-content/uploads/sites/7/2021/11/offbeat-escapes-asheville-nc-avltoday.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+ 
+}
+.banner__searchButton{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton{
+    background-color: #fff;
+    font-weight: 900 !important;
+    text-transform: inherit;
+    color:#ff7779!important;
+}
+.banner__info{
+    background-color: black;
+    color:#fff;
+    padding-top:5vh;
+    padding-left: 50px;
+    margin-left: 35px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__info>button{
+    background-color: #ff7779;
+    color:#fff;
+    text-transform: inherit;
+    margin-top:20px;
+    font-weight: 600px;
+    font-weight: 600;
+}
+.banner__info>button:hover{
+    background-color: #fff;
+    color:#ff7779;
+}
+.banner__info>h5{
+    margin-top: 10px;
+}
